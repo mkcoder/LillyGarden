@@ -1,0 +1,17 @@
+{
+  "name": "angularapp",
+  "description": "a sample web app for Lilly's garden",
+  "main": "index.html",
+  "authors": [
+    "Muhammad K Khan <mk.muhammad.khan10@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
