@@ -5,12 +5,19 @@
      content: " ";
      clear: both;
      height: 0;
-     }
+}
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+/**
+* DEFAULT STYLES
+************************/
+section.logo {
+	width: 50%;
+}
+
 /**
 * HEADER STYLES
 ************************/
