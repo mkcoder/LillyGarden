@@ -1,0 +1,36 @@
+html
+	head
+		link(rel="stylesheet", href="/external/libs/bootstrap/dist/css/bootstrap.css")
+		link(rel="stylesheet", href="/external/libs/bootstrap/dist/css/bootstrap-theme.css")       		
+		link(rel="stylesheet", href="/external/libs/toastr/toastr.css")
+		link(rel="stylesheet", href="/styles/style.css")		
+	body.container.container-fluid
+	header(id="top-header", class="header, clear-fix")
+		section.logo
+			h1 Lilly's Garden	
+		nav.clear-fix
+			ul
+				li
+					a(href="#home")
+						span.home
+						| home
+				li
+					a(href="#about")
+						span.about
+						| about	
+				li
+					a(href="#shop")
+						span.shop
+						| our shop			
+				li
+					a(href="#finish")
+						span.finish
+						| finalize order
+				li
+					a(href="#account")
+						span.account
+						| account	
+	block main-content
+	include scripts
+	block scripts
+
